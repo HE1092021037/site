@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>嗯哼</title>
+    <div id="header" th:replace="Base/Header-common::html"></div>
+    <link rel="stylesheet" href="/css/Home/Login.css" type="text/css"/>
+    <script type="text/javascript" src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
+</head>
+<body>
+<!-- 登录框 -->
+<div id="login" class="class_login">
+    <div id="login_profile_photo">
+        <img src="/images/akari.jpg"/>
+    </div>
+    <div class="clear"></div>
+    <div id="login_framework" class="class_login">
+        <form id="login_form" autocomplete=off action="JavaScript:return false;">
+            <div class="login_label">
+                <span class="label"><i
+                        class="layui-icon login_label_icon_1">&#xe66f;</i>&nbsp;帐号<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="userName" name="userName" class="login_input"/></br>
+                <!-- <p id="userName_prompt" class="login_prompt" hidden ="true"><i class="layui-icon login_label_icon_2">&#xe702;</i>用户不存在</p> -->
+            </div>
+            <div class="login_label">
+                <span class="label"><i
+                        class="layui-icon login_label_icon_1">&#xe673;</i>&nbsp;密码<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="passWord" name="passWord" type="password" class="login_input"/>
+                <!-- <p id="passWord_prompt" class="login_prompt" hidden ="true" ><i class="layui-icon login_label_icon_2" >&#xe702;</i>密码错误&#12288;</p> -->
+            </div>
+            <input id="lastLoginIP" name="lastLoginIP" hidden="hidden"/>
+            <button id="login_button" class="layui-btn-normal layui-btn-lg layui-btn-primary layui-btn-radius">登陆
+            </button>
+        </form>
+        <a id="login_regist" href="/regist">变成咸鱼</a>
+    </div>
+</div>
+<div class="clear"></div>
+<!-- 登录框END -->
+</body>
+<script src="/js/Home/Login.js"></script>
+</html>

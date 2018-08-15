@@ -1,0 +1,145 @@
+.clear {
+    clear: both
+}
+
+body {
+    background: url('/images/home/regist_backgroud.jpg') no-repeat 0px -150px;
+}
+
+.layui-nav {
+    background-color: rgb(30, 30, 30);
+    opacity: 0.8;
+}
+
+#regist {
+    /*float: right;*/
+    position: relative;
+    left: 49%;
+    /*margin-right: 350px;*/
+    margin-top: 100px;
+    width: 370px;
+    height: 700px;
+    box-shadow: rgb(16,32,48) 10px 10px 10px 1px;
+    /*box-shadow: rgb(12,22,34) 10px 10px 10px 1px*/
+}
+
+.class_regist {
+    /*background-color: rgb(68,78,112);*/
+    /*background-color: rgb(10,10,10);*/
+    /*background-color:#000000;!* IE6和部分IE7内核的浏览器(如QQ浏览器)下颜色被覆盖 *!*/
+    background-color:rgba(10,10,10,0.2); /* IE6和部分IE7内核的浏览器(如QQ浏览器)会读懂，但解析为透明 */
+    /*opacity: 0.8;*/
+
+}
+
+#regist_framework {
+    position: relative;
+    top: 20px;
+    /*border: rgb(98, 94, 125) solid 0.5px;*/
+    margin: 0px 20px 5px 35px;
+    padding: 0px 28px;
+}
+
+#regist_profile_photo {
+    margin-left: 36%;
+    margin-top: 3%;
+    /*border: red solid 1px;*/
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 60%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#regist_profile_photo img {
+    width: 100px;
+    height: 100px;
+}
+
+#regist_framework .label {
+    color: white;
+    width: 100px;
+}
+
+.class_regist input {
+    padding: 0;
+    margin: 0;
+    BACKGROUND-COLOR: transparent;
+}
+
+.regist_input {
+    height: 20px;
+    background-color: rgb(75, 75, 103);
+    border-width: 1px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    caret-color: white;
+    margin: 20px 20px;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.regist_label {
+    /*border: red solid 1px;*/
+    /*margin: 40px 0px;*/
+    margin: 35px 0px 35px 0px;
+}
+
+#regist_button {
+    width: 200px;
+    margin: 2% 9%;
+    color: white;
+    border: 0.5px solid #C9C9C9;
+}
+
+#regist_button:hover{
+    border: none;
+}
+
+
+#get_code{
+    float: right;
+    color: white;
+    border: none;
+}
+
+#get_code:hover{
+    border: none;
+}
+
+.regist_prompt {
+    color: rgb(98,199,251);
+}
+
+.regist_label_icon_1 {
+    color: #33b5e5;
+}
+
+.regist_label_icon_2 {
+    color: rgb(216,154,167);
+}
+.label{
+    position: relative;
+    top: 2px;
+    border-bottom: white solid 1px;
+}
+html #regist_login{
+    margin-top: 10px;
+    float: right;
+    color: #66ccff;
+}
+#get_code a{
+    color: white;
+}
+.make_up{
+    width:170px;
+}
+
+#nikeName{
+    margin-top: 10px;
+}
+

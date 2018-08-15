@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+</head>
+<!-- 导航栏 -->
+<ul class="layui-nav">
+  <li class="layui-nav-item">
+    <a href="">个人中心<span class="layui-badge-dot" ></span></a>
+  </li>
+  <li class="layui-nav-item" lay-unselect="">
+    <a id="header_a" href="javascript:;"><img src="/images/akari.jpg" class="layui-nav-img"
+                th:text="${session.Account.nikeName}"></a>
+    <dl class="layui-nav-child">
+      <!--<dd><a href="javascript:;">修改信息</a></dd>-->
+      <!--<dd><a href="javascript:;">安全管理</a></dd>-->
+      <!--<dd><a href="javascript:;">注销</a></dd>-->
+    </dl>
+  </li>
+</ul>
+<!-- 导航栏END -->
+</html>

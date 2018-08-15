@@ -1,0 +1,119 @@
+.clear {
+    clear: both
+}
+
+body {
+    background: url('/images/home/login_background.jpg') no-repeat 0px -150px;
+}
+
+.layui-nav {
+    background-color: rgb(30, 30, 30);
+    opacity: 0.8;
+}
+
+#login {
+    /*float: right;*/
+    position: relative;
+    left: 75%;
+    /*margin-right: 350px;*/
+    margin-top: 200px;
+    width: 350px;
+    height: 470px;
+    box-shadow: rgb(44,59,87) 10px 10px 10px 1px
+}
+
+.class_login {
+    background-color: rgb(68,78,112);
+    opacity: 0.8;
+}
+
+#login_framework {
+    position: relative;
+    top: 20px;
+    /*border: rgb(98, 94, 125) solid 0.5px;*/
+    margin: 0px 20px 5px 35px;
+    padding: 0px 28px;
+}
+
+#login_profile_photo {
+    margin-left: 36%;
+    margin-top: 3%;
+    /*border: red solid 1px;*/
+    width: 100px;
+    height: 100px;
+    float: left;
+    border-radius: 60%;
+    height: 100px;
+    overflow: hidden;
+}
+
+#login_profile_photo img {
+    width: 100px;
+    height: 100px;
+}
+
+#login_framework .label {
+    color: white;
+    width: 100px;
+}
+
+.class_login input {
+    padding: 0;
+    margin: 0;
+    BACKGROUND-COLOR: transparent;
+}
+
+.login_input {
+    height: 20px;
+    background-color: rgb(75, 75, 103);
+    border-width: 1px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    caret-color: white;
+    margin: 20px 20px;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.login_label {
+    /*border: red solid 1px;*/
+    margin: 40px 0px;
+}
+
+#login_button {
+    width: 200px;
+    margin: 2% 9%;
+    color: white;
+    border: 0.5px solid #C9C9C9;
+}
+
+#login_button:hover {
+    border: none;
+}
+
+.login_prompt {
+    color: rgb(216,154,167);
+    text-align: center;
+}
+
+.login_label_icon_1 {
+    color: #33b5e5;
+}
+
+.login_label_icon_2 {
+    color: rgb(216,154,167);
+}
+.label{
+    position: relative;
+    top: 2px;
+    border-bottom: white solid 1px;
+}
+html #login_regist{
+    margin-top: 10px;
+    float: right;
+    color: #66ccff;
+}
+

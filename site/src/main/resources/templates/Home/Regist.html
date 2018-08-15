@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>嘿嘿</title>
+    <div id="header" th:replace="Base/Header-common::html"></div>
+    <link rel="stylesheet" href="/css/Home/regist.css" type="text/css"/>
+</head>
+<body>
+<div id="regist" class="class_regist">
+    <div id="regist_profile_photo">
+        <img src="/images/akari.jpg"/>
+    </div>
+    <div class="clear"></div>
+    <div id="regist_framework" class="class_regist">
+        <form id="regist_form" autocomplete=off action="JavaSript:return false;">
+            <div class="regist_label">
+                <span class="label"><i class="layui-icon regist_label_icon_1">&#xe770;</i>&nbsp;用户名<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="nikeName" name="nikeName" class="regist_input"/>
+                <p id="nikeName_prompt" class="regist_prompt"><i class="layui-icon regist_label_icon_1">&#xe60b;</i>展示昵称,在个人界面可以修改&#12288;
+                </p>
+            </div>
+            <div class="regist_label">
+                <span class="label"><i class="layui-icon regist_label_icon_1">&#xe66f;</i>&nbsp;&nbsp;&nbsp;帐号&nbsp;&nbsp;<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="userName" name="userName" class="regist_input "/></br>
+                <p id="userName_prompt" class="regist_prompt"><i class="layui-icon regist_label_icon_1">&#xe60b;</i>登录账号,确认后不可修改
+                </p>
+            </div>
+            <div class="regist_label">
+                <span class="label"><i class="layui-icon regist_label_icon_1">&#xe673;</i>&nbsp;&nbsp;&nbsp;密码&nbsp;&nbsp;<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="passWord" name="passWord" type="password" class="regist_input"/>
+                <p id="passWord_prompt" class="regist_prompt"><i class="layui-icon regist_label_icon_1">&#xe60b;</i>登录密码&#12288;
+                </p>
+            </div>
+            <div class="regist_label">
+                <span class="label"><i class="layui-icon regist_label_icon_1">&#xe678;</i>&nbsp;&nbsp;&nbsp;电话&nbsp;&nbsp;<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="phoneNumber" name="phone" class="regist_input"/>
+                <p id="phone_prompt" class="regist_prompt"><i class="layui-icon regist_label_icon_1">&#xe60b;</i>可以用来接收验证码的手机号&#12288;
+                </p>
+                <button id="get_code"
+                        class="layui-btn layui-btn-xs layui-btn-primary  layui-btn-normal layui-btn-radius">获取验证码
+                </button>
+                <div class="clear"></div>
+            </div>
+            <div class="regist_label">
+                <span class="label"><i class="layui-icon regist_label_icon_1">&#xe679;</i>&nbsp;验证码&nbsp;<big><big>&nbsp;:&nbsp;</big></big></span><input
+                    id="code" name="code" class="regist_input"/>
+                <p id="code_prompt" class="regist_prompt"><i class="layui-icon regist_label_icon_1">&#xe60b;</i>短信验证码&#12288;
+                </p>
+            </div>
+            <button id="regist_button" class="layui-btn-normal layui-btn-lg layui-btn-primary layui-btn-radius">注册
+            </button>
+        </form>
+        <a id="regist_login" href="/login">已有账号?直接登录</a>
+    </div>
+</div>
+</body>
+<script src="/js/Home/Regist.js"></script>
+</html>
